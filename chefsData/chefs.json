@@ -1,0 +1,248 @@
+[
+    {
+        "id": 1,
+        "chef_picture": "https://images.unsplash.com/photo-1577219491135-ce391730fb2c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1954&q=80",
+        "chef_name": "Saransh Gupta",
+        "years_of_experience": 10,
+        "description": "Saransh Gupta is a well-known chef who specializes in North Indian cuisine. He has trained in some of the best restaurants in Delhi and has won several awards for his culinary skills.",
+        "num_recipes": 15,
+        "likes": 10000,
+        "recipes": [
+            {
+                "recipe_name": "Butter Chicken",
+                "recipe_img" : "https://images.unsplash.com/photo-1626266799007-f85d48ef3f05?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
+                "ingredients": [
+                    "chicken",
+                    "butter",
+                    "cream",
+                    "tomato",
+                    "onion"
+                ],
+                "cooking_method": "1. Marinate chicken with spices and yogurt. 2. Cook in a pan until brown. 3. Make a tomato-based sauce with butter and cream. 4. Add chicken to the sauce and simmer for 10 minutes. 5. Serve hot.",
+                "rating": 4.5
+            },
+            {
+                "recipe_name": "Palak Paneer",
+                "recipe_img" : "https://images.unsplash.com/photo-1626266800035-0f65355cb33a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+                "ingredients": [
+                    "spinach",
+                    "paneer",
+                    "onion",
+                    "garlic",
+                    "tomato"
+                ],
+                "cooking_method": "1. Cook spinach and blend to make a puree. 2. Fry paneer until golden brown. 3. Make a tomato-based sauce with onion and garlic. 4. Add spinach puree and paneer to the sauce. 5. Simmer for 5 minutes. 6. Serve hot.",
+                "rating": 4.2
+            },
+            {
+                "recipe_name": "Chicken Biryani",
+                "recipe_img" : "https://images.unsplash.com/photo-1626266800035-0f65355cb33a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+                "ingredients": [
+                    "chicken",
+                    "rice",
+                    "spices",
+                    "onion",
+                    "yogurt"
+                ],
+                "cooking_method": "1. Marinate chicken with spices and yogurt. 2. Cook rice separately. 3. Layer chicken and rice in a pot. 4. Add saffron and fried onions on top. 5. Bake in the oven for 30 minutes. 6. Serve hot.",
+                "rating": 4.8
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "chef_picture": "https://images.unsplash.com/photo-1595257841889-eca2678454e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80",
+        "chef_name": "Anjali Mehta",
+        "years_of_experience": 12,
+        "description": "Anjali Mehta is a renowned chef who specializes in South Indian cuisine. She has worked in some of the best restaurants in Chennai and has won several awards for her culinary skills.",
+        "num_recipes": 20,
+        "likes": 15000,
+        "recipes": [
+            {
+                "recipe_name": "Dosa",
+                "recipe_img" : "https://images.unsplash.com/photo-1626266800035-0f65355cb33a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+                "ingredients": [
+                    "rice",
+                    "urad dal",
+                    "salt",
+                    "oil",
+                    "chutney"
+                ],
+                "cooking_method": "1. Soak rice and urad dal overnight. 2. Grind to make a batter. 3. Ferment the batter for 8 hours. 4. Make dosa on a hot griddle. 5. Serve with chutney.",
+                "rating": 4.6
+            },
+            {
+                "recipe_name": "Sambar",
+                "recipe_img" : "https://images.unsplash.com/photo-1626266800035-0f65355cb33a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+                "ingredients": [
+                    "toor dal",
+                    "vegetables",
+                    "tamarind",
+                    "spices",
+                    "curry leaves"
+                ],
+                "cooking_method": "1. Cook toor dal and vegetables. 2. Add tamarind pulp and spices. 3. Simmer",
+                "rating": 4.3
+            },
+            {
+                "recipe_name": "Idli",
+                "recipe_img" : "https://images.unsplash.com/photo-1626266800035-0f65355cb33a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+                "ingredients": [
+                    "rice",
+                    "urad dal",
+                    "salt",
+                    "water",
+                    "sambar"
+                ],
+                "cooking_method": "1. Soak rice and urad dal overnight. 2. Grind to make a batter. 3. Ferment the batter for 8 hours. 4. Pour batter into idli molds and steam for 10 minutes. 5. Serve hot with sambar and chutney.",
+                "rating": 4.5
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "chef_picture": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+        "chef_name": "Rajesh Singh",
+        "years_of_experience": 8,
+        "description": "Rajesh Singh is a talented chef who specializes in Punjabi cuisine. He has worked in some of the best restaurants in Amritsar and has a deep understanding of the region's culinary traditions.",
+        "num_recipes": 12,
+        "likes": 8000,
+        "recipes": [
+            {
+                "recipe_name": "Sarson Ka Saag",
+                "recipe_img" : "https://images.unsplash.com/photo-1626266800035-0f65355cb33a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+                "ingredients": [
+                    "mustard leaves",
+                    "spinach",
+                    "cornmeal",
+                    "butter",
+                    "garlic"
+                ],
+                "cooking_method": "1. Cook mustard leaves and spinach. 2. Blend to make a puree. 3. Cook cornmeal in a separate pan. 4. Add puree and cook for 10 minutes. 5. Add butter and garlic. 6. Serve hot with makki di roti.",
+                "rating": 4.4
+            },
+            {
+                "recipe_name": "Chana Masala",
+                "recipe_img" : "https://images.unsplash.com/photo-1626266800035-0f65355cb33a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+                "ingredients": [
+                    "chickpeas",
+                    "tomatoes",
+                    "onion",
+                    "ginger",
+                    "garlic"
+                ],
+                "cooking_method": "1. Cook chickpeas until tender. 2. Make a tomato-based sauce with onion, ginger, and garlic. 3. Add chickpeas to the sauce and simmer for 10 minutes. 4. Serve hot with rice or naan.",
+                "rating": 4.2
+            },
+            {
+                "recipe_name": "Paneer Tikka Masala",
+                "recipe_img" : "https://images.unsplash.com/photo-1626266800035-0f65355cb33a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+                "ingredients": [
+                    "paneer",
+                    "yogurt",
+                    "tomatoes",
+                    "onion",
+                    "spices"
+                ],
+                "cooking_method": "1. Marinate paneer with yogurt and spices. 2. Grill until golden brown. 3. Make a tomato-based sauce with onion and spices. 4. Add paneer to the sauce and simmer for 10 minutes. 5. Serve hot with rice or naan.",
+                "rating": 4.6
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "chef_picture": "https://images.unsplash.com/photo-1581299894007-aaa50297cf16?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80",
+        "chef_name": "Sunita Patel",
+        "years_of_experience": 15,
+        "description": "Sunita Patel is a master chef who specializes in Gujarati cuisine. She has trained in some of the best restaurants in Ahmedabad and has a deep understanding of the region's culinary traditions.",
+        "num_recipes": 18,
+        "likes": 12000,
+        "recipes": [
+          {
+            "recipe_name": "Dhokla",
+            "recipe_img" : "https://images.unsplash.com/photo-1626266800035-0f65355cb33a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+            "ingredients": ["gram flour", "yogurt", "water", "ginger", "green chilies"],
+            "cooking_method": "1. Mix gram flour, yogurt, and water to make a batter. 2. Add ginger, green chilies, and salt. 3. Pour into a greased dish and steam for 20 minutes. 4. Heat oil in a pan and add mustard seeds, curry leaves, and asafoetida. 5. Pour the tempering over the dhokla. 6. Cut into pieces and serve with chutney.",
+            "rating": 4.8
+          },
+          {
+            "recipe_name": "Undhiyu",
+            "recipe_img" : "https://images.unsplash.com/photo-1626266800035-0f65355cb33a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+            "ingredients": ["yam", "potatoes", "eggplant", "beans", "spices"],
+            "cooking_method": "1. Cut vegetables into small pieces. 2. Add spices and mix well. 3. Cook on low heat until tender. 4. Serve hot with rice or roti.",
+            "rating": 4.6
+          },
+          {
+            "recipe_name": "Gujarati Kadhi",
+            "recipe_img" : "https://images.unsplash.com/photo-1626266800035-0f65355cb33a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+            "ingredients": ["yogurt", "gram flour", "spices", "curry leaves", "jaggery"],
+            "cooking_method": "1. Mix yogurt, gram flour, and water to make a batter. 2. Add spices and mix well. 3. Cook on low heat until thickened. 4. Add curry leaves and jaggery. 5. Serve hot with rice or khichdi.",
+            "rating": 4.4
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "chef_picture": "https://images.unsplash.com/photo-1583394293214-28ded15ee548?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2080&q=80",
+        "chef_name": "Rajeev Kapoor",
+        "years_of_experience": 20,
+        "description": "Rajeev Kapoor is a renowned chef who has made a name for himself in the world of Indian cuisine. He has worked in some of the best restaurants in Mumbai and has won numerous awards for his culinary creations.",
+        "num_recipes": 25,
+        "likes": 15000,
+        "recipes": [
+          {
+            "recipe_name": "Butter Chicken",
+            "recipe_img" : "https://images.unsplash.com/photo-1626266800035-0f65355cb33a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+            "ingredients": ["chicken", "yogurt", "spices", "tomatoes", "cream"],
+            "cooking_method": "1. Marinate chicken in yogurt and spices. 2. Grill or bake until cooked through. 3. In a separate pan, cook tomatoes and spices until thickened. 4. Add cream and mix well. 5. Add chicken to the sauce and simmer for a few minutes. 6. Serve hot with naan or rice.",
+            "rating": 4.9
+          },
+          {
+            "recipe_name": "Palak Paneer",
+            "recipe_img" : "https://images.unsplash.com/photo-1626266800035-0f65355cb33a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+            "ingredients": ["spinach", "paneer", "onion", "spices", "cream"],
+            "cooking_method": "1. Cook spinach until wilted. 2. Blend to make a puree. 3. In a separate pan, saute onion and spices. 4. Add spinach puree and mix well. 5. Add paneer and cream. 6. Cook until heated through. 7. Serve hot with naan or rice.",
+            "rating": 4.7
+          },
+          {
+            "recipe_name": "Tandoori Chicken",
+            "recipe_img" : "https://images.unsplash.com/photo-1626266800035-0f65355cb33a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+            "ingredients": ["chicken", "yogurt", "spices", "lemon juice", "ginger-garlic paste"],
+            "cooking_method": "1. Marinate chicken in yogurt, spices, lemon juice, and ginger-garlic paste. 2. Grill or bake until cooked through. 3. Serve hot with mint chutney.",
+            "rating": 4.6
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "chef_picture": "https://images.unsplash.com/photo-1595273670150-bd0c3c392e46?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1987&q=80",
+        "chef_name": "Saransh Goel",
+        "years_of_experience": 10,
+        "description": "Saransh Goel is a young and talented chef who has made a name for himself in the world of Indian cuisine. He specializes in fusion cuisine and has created some truly unique dishes that have won over the hearts and taste buds of food lovers across the country.",
+        "num_recipes": 12,
+        "likes": 8000,
+        "recipes": [
+          {
+            "recipe_name": "Paneer Tikka Pizza",
+            "recipe_img" : "https://images.unsplash.com/photo-1626266800035-0f65355cb33a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+            "ingredients": ["paneer", "pizza dough", "tomato sauce", "mozzarella cheese", "spices"],
+            "cooking_method": "1. Marinate paneer in spices and grill until cooked through. 2. Roll out pizza dough and spread tomato sauce. 3. Add paneer and top with mozzarella cheese. 4. Bake until crust is crispy and cheese is melted. 5. Serve hot.",
+            "rating": 4.5
+          },
+          {
+            "recipe_name": "Butter Chicken Pasta",
+            "recipe_img" : "https://images.unsplash.com/photo-1626266800035-0f65355cb33a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+            "ingredients": ["chicken", "pasta", "tomato sauce", "cream", "spices"],
+            "cooking_method": "1. Cook pasta according to package directions. 2. In a separate pan, cook chicken until browned. 3. Add tomato sauce and spices. 4. Add cream and mix well. 5. Serve sauce over pasta.",
+            "rating": 4.3
+          },
+          {
+            "recipe_name": "Mango Lassi Cheesecake",
+            "recipe_img" : "https://images.unsplash.com/photo-1626266800035-0f65355cb33a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+            "ingredients": ["cream cheese", "mango pulp", "yogurt", "digestive biscuits", "butter"],
+            "cooking_method": "1. Crush digestive biscuits and mix with melted butter. 2. Press into a pie dish and chill. 3. Beat cream cheese and yogurt until smooth. 4. Add mango pulp and mix well. 5. Pour mixture into pie dish. 6. Chill until set. 7. Serve cold.",
+            "rating": 4.8
+          }
+        ]
+      }     
+]
