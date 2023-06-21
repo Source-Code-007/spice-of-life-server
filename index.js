@@ -39,36 +39,49 @@ async function run() {
         console.log("Pinged your deployment. You successfully connected to MongoDB!");
 
         // for chef data
-        app.get('/chefs', async(req, res) => {
+        app.get('/chefs', async (req, res) => {
             const result = await chefCollection.find().toArray()
             res.send(result)
         })
-        app.get('/chef/:id', async(req, res) => {
+        app.get('/chef/:id', async (req, res) => {
             const uniqueId = req.params.id
-            const result = await chefCollection.findOne({_id: new ObjectId(uniqueId)})
+            const result = await chefCollection.findOne({ _id: new ObjectId(uniqueId) })
             res.send(result)
         })
-        
-        
+
+
         // for recipe by category
-        app.get('/getRecipesByCategory', async(req, res) => {
+        app.get('/getRecipesByCategory', async (req, res) => {
             const category = req.query.category
 
             const recipes = []
             const chefs = await chefCollection.find({}).toArray()
 
-            for(const chef of chefs){
-                for(const recipe of chef.recipes){
-                    if(recipe?.category === category){
+
+            chefs.forEach(chef => {
+                chef.recipes.forEach(recipe => {
+                    if (recipe?.category === category) {
                         recipes.push(recipe)
                     }
-                }
-            }
+                })
+            });
 
             res.send(recipes)
 
         })
-        
+
+        // for recommended recipe via rating
+        app.get('/recommended-recipes', async (req, res) => {
+            const recipes = await chefCollection.aggregate([
+                { $unwind: '$recipes' }, // Unwind the recipes array
+                { $sort: { 'recipes.rating': -1 } }, // Sort by rating in descending order
+                { $limit: 5 }, // Limit the result to 5 recipes
+                { $replaceWith: '$recipes' } // Replace the document with the recipes
+            ]).toArray();
+
+            res.json(recipes);
+        })
+
 
 
 
