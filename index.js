@@ -50,7 +50,7 @@ async function run() {
         })
 
 
-        // for recipe by category
+        // Get recipe by category
         app.get('/getRecipesByCategory', async (req, res) => {
             const category = req.query.category
 
@@ -70,7 +70,17 @@ async function run() {
 
         })
 
-        // for recommended recipe via rating
+        // Get all recipes
+        app.get('/all-recipes', async (req, res) => {
+            const recipes = await chefCollection.aggregate([
+                { $unwind: '$recipes' }, // Unwind the recipes array
+                { $replaceWith: '$recipes' } // Replace the document with the recipes
+            ]).toArray();
+
+            res.json(recipes);
+        })
+
+        // Get recommended recipe via rating
         app.get('/recommended-recipes', async (req, res) => {
             const recipes = await chefCollection.aggregate([
                 { $unwind: '$recipes' }, // Unwind the recipes array
